@@ -7,16 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F4D24E72AEAE1810053A7AF /* ResponsiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4D24E62AEAE1810053A7AF /* ResponsiveView.swift */; };
+		9F4D24EB2AEAE2FC0053A7AF /* DoctorOffice_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4D24EA2AEAE2FC0053A7AF /* DoctorOffice_1.swift */; };
+		9FB175DA2ADDBA7000EF2B29 /* DoctorOffice_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB175D92ADDBA7000EF2B29 /* DoctorOffice_2.swift */; };
 		9FDF39BC2ABE3F5600C85A33 /* DoctorOfficeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDF39BB2ABE3F5600C85A33 /* DoctorOfficeApp.swift */; };
-		9FDF39BE2ABE3F5600C85A33 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDF39BD2ABE3F5600C85A33 /* ContentView.swift */; };
 		9FDF39C02ABE3F5700C85A33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FDF39BF2ABE3F5700C85A33 /* Assets.xcassets */; };
 		9FDF39C32ABE3F5700C85A33 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FDF39C22ABE3F5700C85A33 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9F4D24E62AEAE1810053A7AF /* ResponsiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponsiveView.swift; sourceTree = "<group>"; };
+		9F4D24EA2AEAE2FC0053A7AF /* DoctorOffice_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorOffice_1.swift; sourceTree = "<group>"; };
+		9FB175D92ADDBA7000EF2B29 /* DoctorOffice_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorOffice_2.swift; sourceTree = "<group>"; };
 		9FDF39B82ABE3F5600C85A33 /* DoctorOffice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoctorOffice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FDF39BB2ABE3F5600C85A33 /* DoctorOfficeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorOfficeApp.swift; sourceTree = "<group>"; };
-		9FDF39BD2ABE3F5600C85A33 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9FDF39BF2ABE3F5700C85A33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9FDF39C22ABE3F5700C85A33 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -52,7 +56,8 @@
 			isa = PBXGroup;
 			children = (
 				9FDF39BB2ABE3F5600C85A33 /* DoctorOfficeApp.swift */,
-				9FDF39BD2ABE3F5600C85A33 /* ContentView.swift */,
+				9F4D24EA2AEAE2FC0053A7AF /* DoctorOffice_1.swift */,
+				9FB175D92ADDBA7000EF2B29 /* DoctorOffice_2.swift */,
 				9FDF39BF2ABE3F5700C85A33 /* Assets.xcassets */,
 				9FDF39C12ABE3F5700C85A33 /* Preview Content */,
 			);
@@ -63,6 +68,7 @@
 			isa = PBXGroup;
 			children = (
 				9FDF39C22ABE3F5700C85A33 /* Preview Assets.xcassets */,
+				9F4D24E62AEAE1810053A7AF /* ResponsiveView.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9FDF39BE2ABE3F5600C85A33 /* ContentView.swift in Sources */,
+				9F4D24E72AEAE1810053A7AF /* ResponsiveView.swift in Sources */,
+				9FB175DA2ADDBA7000EF2B29 /* DoctorOffice_2.swift in Sources */,
+				9F4D24EB2AEAE2FC0053A7AF /* DoctorOffice_1.swift in Sources */,
 				9FDF39BC2ABE3F5600C85A33 /* DoctorOfficeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

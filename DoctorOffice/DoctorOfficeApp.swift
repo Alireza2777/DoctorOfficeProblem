@@ -8,10 +8,13 @@
 import SwiftUI
 
 @main
-struct DoctorOfficeApp: App {
+struct SupportDifferentScreensSwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ResponsiveView {properties in
+              DoctorOffice_1(layoutProperties: properties)
+            }
+            .navigationViewStyle(.stack)
         }
     }
 }
